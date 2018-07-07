@@ -1,7 +1,4 @@
-/* body {
-    margin-top: 125px;
-} */
-
 .container {
     margin-top: 125px;
+    list-style-position: inside;
 }

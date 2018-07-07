@@ -24,7 +24,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://thomas:tseaman14@ds217671
 
 // API calls
 // Slack bot Route to listen for links to post to DB
-// require("./routes/rtmslack.js")(app);
+require("./routes/rtmslack.js")(app);
 
 // Send every other request to the React app
 // Define any API routes before this runs

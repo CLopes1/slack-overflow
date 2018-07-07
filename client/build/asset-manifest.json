@@ -1,28 +1,7 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "main.css": "static/css/main.47a49b28.css",
-  "main.css.map": "static/css/main.47a49b28.css.map",
-  "main.js": "static/js/main.0401d79d.js",
-  "main.js.map": "static/js/main.0401d79d.js.map"
-=======
-  "main.css": "static/css/main.81b2b7c1.css",
-  "main.css.map": "static/css/main.81b2b7c1.css.map",
-  "main.js": "static/js/main.1f7e43a0.js",
-  "main.js.map": "static/js/main.1f7e43a0.js.map"
->>>>>>> 735330ff2b2c9d0b43032cf60162098f6860fee5
-=======
-  "main.css": "static/css/main.93c9a039.css",
-  "main.css.map": "static/css/main.93c9a039.css.map",
-  "main.js": "static/js/main.7a393752.js",
-  "main.js.map": "static/js/main.7a393752.js.map"
->>>>>>> 412b004f9b94a40ed182afc3ce6ef1c018452485
-=======
-  "main.css": "static/css/main.418ab0db.css",
-  "main.css.map": "static/css/main.418ab0db.css.map",
-  "main.js": "static/js/main.20040184.js",
-  "main.js.map": "static/js/main.20040184.js.map",
+  "main.css": "static/css/main.7364dfb0.css",
+  "main.css.map": "static/css/main.7364dfb0.css.map",
+  "main.js": "static/js/main.e0b3c7ef.js",
+  "main.js.map": "static/js/main.e0b3c7ef.js.map",
   "static/media/bg.png": "static/media/bg.d7419ea5.png"
->>>>>>> d018b69344b26de328f42dd1fd920f4184f766ee
 }

@@ -9,11 +9,6 @@ const { createMessageAdapter } = require('@slack/interactive-messages')
 // Create the adapter using the app's verification token, read from environment variable
 const slackInteractions = createMessageAdapter(process.env.SLACK_VERIFICATION_TOKEN);
 
-
-//safeBrowse NPM
-SafeBrowse = require('safe-browse');
-var validate = new SafeBrowse.Api( process.env.GOOGLE_SAFE_BROWSE_KEY );
-
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
