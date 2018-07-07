@@ -10,6 +10,8 @@ let $ = window.$
 class Categories extends Component {
     componentDidMount() {
 
+        // HACK: this function moves to the end of the carousel after it's initialized via componentDidMount.
+        // This enables you to go click left within the carousel. 
         $('.carousel').carousel('next', 16)
     }
 

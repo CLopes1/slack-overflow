@@ -4,7 +4,7 @@ import Categories from "../components/Categories/Categories";
 import Heading from "../components/Jumbotron/Heading";
 import Post from "../components/Post/Post";
 import Result from "../components/Results/Result";
-import Foot from "../components/Footer/Footer";
+// import Foot from "../components/Footer/Footer";
 import API from "../utils/API";
 import { Col, Row, Collapsible } from "react-materialize";
 import "./Main.css";
@@ -95,7 +95,7 @@ class Main extends Component {
             </Row>
           </div>
 
-        <Foot />
+        {/* <Foot /> */}
 
                 </div>
                 <Post />
