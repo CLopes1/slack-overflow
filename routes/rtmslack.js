@@ -48,7 +48,7 @@ module.exports = function (app) {
         if( event.text.includes("http://"||"https://"|| "www." ||".com" || ".org" || ".net")){
 
             
-            rtm.sendMessage('Thanks for sharing! :link: go to: http://slackoverflow2.herokuapp.com/', testId)
+            rtm.sendMessage('Thanks for sharing! :link: go to: http://slackoverflow2.herokuapp.com/', conversationId)
             .then((res) => {
                 // `res` contains information about the posted message
                 console.log('Message reply successfully sent: ', res.ts);

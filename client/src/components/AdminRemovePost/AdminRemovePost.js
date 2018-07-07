@@ -22,8 +22,8 @@ class AdminRemovePost extends Component {
     // Then reload data from the database
     handleFormSubmit = event => {
         event.preventDefault();
-        console.log(this.state.title)
-        console.log("Removing Resource")
+        // console.log(this.state.title)
+        // console.log("Removing Resource")
         this.removeResource(this.state.title)
     };
 

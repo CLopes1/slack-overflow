@@ -14,7 +14,7 @@ export default {
   },
   // Saves a resource to the database
   saveResource: function(resourceData) {
-    console.log("API: " + resourceData)
+    // console.log("API: " + resourceData)
     return axios.post("/api/resources", resourceData);
   },
   getUsers: function() {

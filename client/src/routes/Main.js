@@ -24,7 +24,7 @@ class Main extends Component {
   //image click funtion 
   handleImageClick = (category) => {
     this.setState({ categoryName: category.name })
-    console.log('category', category.name)
+    // console.log('category', category.name)
     this.getCategory(category.name)
     this.setState({selectedCat: 'selectedCategory ='})
   }
@@ -34,7 +34,7 @@ class Main extends Component {
 
   // Query database for chosen category, and call category change function with category
   getCategory = category => {
-    console.log('querying for: ' + category)
+    // console.log('querying for: ' + category)
     API.getCategory(category)
       .then(res =>
         this.handleCategoryChange(res.data)
@@ -104,8 +104,6 @@ class Main extends Component {
     );
   }
 }
-
-
 
 export default Main;
 

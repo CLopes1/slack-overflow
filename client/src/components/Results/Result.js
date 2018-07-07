@@ -38,7 +38,7 @@ class Results extends Component {
     if (direction === 'up') {
       API.castVote(this.state._id, { voteCount: 1 })
         .then((data) => {
-          console.log('data', data);
+          // console.log('data', data);
           if (data.status === 200) {
             voteCount += 1;
             this.setState({ voteCount });
@@ -47,7 +47,7 @@ class Results extends Component {
     } else if (direction === 'down') {
       API.castVote(this.state._id, { voteCount: -1 })
         .then((data) => {
-          console.log('data', data);
+          // console.log('data', data);
           voteCount -= 1;
           this.setState({ voteCount });
         });

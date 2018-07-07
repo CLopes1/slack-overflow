@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from '../../utils/API'
-import { Input, FormBtn } from "../../components/Form";
 import './AdminAddNewUser.css'
+import { Button, Input } from 'react-materialize'
 
 class AdminAddNewUser extends Component {
 
@@ -21,7 +21,7 @@ class AdminAddNewUser extends Component {
     // Send data to database when form is submitted
     handleFormSubmit = event => {
         event.preventDefault();
-        console.log(this.state.username)
+        // console.log(this.state.username)
         API.saveUser(
             {
                 username: this.state.username,
@@ -51,12 +51,13 @@ class AdminAddNewUser extends Component {
                         name="password"
                         placeholder="Password (required)"
                     />
-                    <FormBtn
+                    <Button
                         disabled={!(this.state.username && this.state.password)}
                         onClick={this.handleFormSubmit}
+                        className="green modal-close"
                     >
                         Add User
-              </FormBtn>
+              </Button>
                 </form>
             </div >
         );

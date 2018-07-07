@@ -24,7 +24,7 @@ class Login extends Component {
   }
 
   getUser = username => {
-    console.log('querying for: ' + username)
+    // console.log('querying for: ' + username)
     API.getUser(username)
       .then(res =>
         this.validateUser(res.data[0])

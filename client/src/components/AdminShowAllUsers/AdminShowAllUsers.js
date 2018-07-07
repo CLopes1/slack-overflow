@@ -16,7 +16,7 @@ class AdminShowAllUsers extends Component {
     }
 
     loadUsers = () => {
-        console.log("Loading All Users")
+        // console.log("Loading All Users")
         API.getUsers()
             .then(res =>
                 this.setState({ users: res.data })

@@ -32,14 +32,14 @@ class Admin extends Component {
 
     // Set active component on button click
     handleButtonClick = (component) => {
-        console.log('Button Clicked')
-        console.log(component)
+        // console.log('Button Clicked')
+        // console.log(component)
         this.setState({ active: component })
     };
 
     // Back to main page on click
     handleBackButton = () => {
-        console.log('Back Button Pressed')
+        // console.log('Back Button Pressed')
         this.setState({ redirect: true })
 
     }

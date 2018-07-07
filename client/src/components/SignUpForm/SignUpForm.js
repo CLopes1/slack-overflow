@@ -30,7 +30,7 @@ class SignUpForm extends Component {
     // Then reload data from the database
     handleFormSubmit = event => {
         event.preventDefault();
-        console.log(this.state.username)
+        // console.log(this.state.username)
         API.saveUser(
             {
                 username: this.state.username,

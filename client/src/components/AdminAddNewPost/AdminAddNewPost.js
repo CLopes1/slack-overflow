@@ -25,8 +25,8 @@ class AdminAddNewPost extends Component {
 
     // Save resource data using API when form is submitted
     handleFormSubmit = event => {
-        console.log("Submitting Resource from Admin Page")
-        console.log(this.state)
+        // console.log("Submitting Resource from Admin Page")
+        // console.log(this.state)
         event.preventDefault();
         API.saveResource(
             {

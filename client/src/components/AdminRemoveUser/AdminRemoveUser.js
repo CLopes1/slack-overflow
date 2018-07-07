@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import API from '../../utils/API'
-import { Input, FormBtn } from "../../components/Form";
 import "./AdminRemoveUser.css"
+import { Button, Input } from 'react-materialize'
+
 
 class AdminRemoveUser extends Component {
 
@@ -43,12 +44,13 @@ class AdminRemoveUser extends Component {
                         name="username"
                         placeholder="Name (required)"
                     />
-                    <FormBtn
+                    <Button
                         disabled={!(this.state.username)}
                         onClick={this.handleFormSubmit}
+                        className="green modal-close"
                     >
                         Remove User
-              </FormBtn>
+              </Button>
                 </form>
             </div >
         );

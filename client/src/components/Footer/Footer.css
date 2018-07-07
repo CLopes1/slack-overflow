@@ -1,4 +1,6 @@
 #footer-style{
     /* background-image: url("bg.png"); */
-    background-color: rgba(30,30, 30,0)
+    background-color: rgba(30,30, 30, 0.00001);
+    padding-bottom: 25%;
+    color: rgba(30,30, 30, 0.00001)
 }
